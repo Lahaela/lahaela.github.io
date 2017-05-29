@@ -83,10 +83,12 @@ a:after {
 
 .w {
 	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	-moz-box-shadow: 5px 5px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 5px 5px rgba(0,0,0,0.2);
-	box-shadow: 5px 5px rgba(0,0,0,0.2);
+	border: 1px solid #778899;
+	border-radius: 12px;
+	/* Prevent background color leak outs */
+    -webkit-background-clip: padding-box; 
+    -moz-background-clip:    padding; 
+    background-clip:         padding-box;
 }
 
 
@@ -133,9 +135,10 @@ a:after {
 }
 
 .tab-content h5 {
-	color: #bdc3c7;
-	font-weight: 700;
+	color: #979c9f;
+	font-weight: 400;
 	letter-spacing: 1px;
+	margin-top: 15px;
 }
 
 .red i {
