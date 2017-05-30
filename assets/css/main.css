@@ -84,8 +84,11 @@ a:after {
 .w {
 	background-color: #ffffff;
 	border: 1px solid #778899;
-	border-radius: 12px;
-	/* Prevent background color leak outs */
+}
+
+.round {
+    border-radius: 12px;
+    /* Prevent background color leak outs */
     -webkit-background-clip: padding-box; 
     -moz-background-clip:    padding; 
     background-clip:         padding-box;
