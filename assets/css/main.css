@@ -94,6 +94,11 @@ a:after {
     background-clip:         padding-box;
 }
 
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 
 .col-md-4 {
 	padding-left: 0px;
