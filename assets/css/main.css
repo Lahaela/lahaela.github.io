@@ -143,7 +143,7 @@ a:after {
 .navbar-inverse .navbar-brand:focus {
   color: #ffffff;
   background-color: transparent;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .navbar-inverse .navbar-text {
@@ -158,7 +158,7 @@ a:after {
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: transparent;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
