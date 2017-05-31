@@ -47,6 +47,7 @@ p {
 /* Links */
 a {
     color: #6ca6cd;
+    font-weight: 400;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -94,6 +95,11 @@ a:after {
     background-clip:         padding-box;
 }
 
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 
 .col-md-4 {
 	padding-left: 0px;
@@ -106,11 +112,11 @@ a:after {
 }
 
 
-.nav-tabs {
+/*.nav-tabs {
 	border-bottom: 1px solid #dddddd;
-}
+}*/
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
 	color: #555555;
 	cursor: default;
 	background-color: #ffffff;
@@ -121,14 +127,17 @@ a:after {
 	width: 100%;
 }
 
-.nav-tabs > li > a {
-	margin-right: 2px;
-	line-height: 1.428571429;
-	border-bottom: 1px solid #dddddd;
-	border-radius: 0 0 0 0;
-	width: 100%;
-	background-color: #f2f2f2;
+.nav-tabs .nav-item {
+  border-top: 1px solid #dddddd;
+  border-radius: 0 0 0 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-right: 2px;
+  line-height: 1.428571429;
 }
+
+/*li.nav-item > a.nav-link {
+}*/
 
 .navbar-inverse {
   background-color: #778899;
