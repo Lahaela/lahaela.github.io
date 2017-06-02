@@ -80,9 +80,9 @@
 
     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
       <div class="card-block">
-      <script type="text/javascript"> 
+<!--       <script type="text/javascript"> 
         $(".text").load("helloworld.txt");
-      </script>
+      </script> -->
       </div>
     </div>
   </div>
@@ -96,7 +96,7 @@
     </div>
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="card-block">
-        <xmp> Some markdown text $$\pi$$ </xmp>
+        <xmp theme="united" style="display:none;"> Some markdown text $$\pi$$ </xmp>
       </div>
     </div>
   </div>
@@ -142,8 +142,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
-    <!-- Allow Markdown support -->
-    <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 	<script>
 	$('#myTab a').click(function (e) {
 	  e.preventDefault()
@@ -151,5 +149,8 @@
 	})	
 	</script>    
     
+		<!-- Allow Markdown support -->
+    <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+
   </body>
 </html>
